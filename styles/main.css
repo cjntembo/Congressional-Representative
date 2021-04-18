@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(123, 123, 185);
+    font-size: larger;
+}
+h1{ 
+    text-align: center;
+}
+.general{
+    display: flexbox;
+}
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 25%;
+}
+.basic-info{
+    font-size: larger;
+    display: flex;
+    flex-wrap: wrap;
+    border: rgb(24, 4, 95);
+    margin: 5% 10%;
+    padding: 2%;
+    border-style: solid;
+    flex-direction: column;
+    
+}
+.committees_caucuses{    
+    font-size: larger;
+    display: flex;
+    flex-wrap: wrap;
+    border: rgb(129, 199, 1);
+    margin: 5% 10%;
+    padding: 2%;
+    border-style: solid;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+}
+.committees{
+    border: coral;
+    border-style: double;
+}
+.subcommittees{
+    border: coral;
+    border-style: double;
+}
+.caucuses{
+    border: hotpink;
+    border-style: groove;
+}
+.legislations_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: rgb(143, 10, 143);
+    margin: 5% 10%;
+    padding: 2%;
+    border-style: solid;
+}
+.legislations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: larger;      
+    border: rgb(131, 21, 30);
+    border-style: solid;
+    padding: 2.5% 5%;
+}
+.leg_list{
+    flex-direction: row;
+    flex-basis: 12%;
+    padding: 1%;
+    margin: 1% 1% 1% 2%;
+    border: rgb(75, 16, 16);
+    border-style: dotted;
+    text-align: center;
+}
+
+
+
